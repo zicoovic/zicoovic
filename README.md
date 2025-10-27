@@ -53,7 +53,7 @@
 
 ### 🐍 GitHub Activity Snake:
 <p align="center">
-  <img src="snake.svg?raw=true" alt="GitHub Activity Snake" />
+ <img src="snake.svg?raw=true" alt="GitHub Activity Snake" />
 </p>
 
 ---
