@@ -16,7 +16,9 @@ jobs:
         uses: Platane/snk@v3
         with:
           github_user_name: zicoovic
+          theme: dark  
           outputs: dist/snake.svg
+
 
       - name: Push generated snake.svg to output branch
         uses: crazy-max/ghaction-github-pages@v3
