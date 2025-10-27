@@ -13,11 +13,13 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Generate GitHub Contribution Snake
+      - name: Generate GitHub Contribution Snake (Light & Dark)
         uses: Platane/snk@v3
         with:
           github_user_name: zicoovic
-          outputs: dist/snake.svg
+          outputs: |
+            dist/snake.svg
+            dist/snake-dark.svg?palette=github-dark
 
       - name: Deploy snake.svg to snake branch using PAT
         uses: peaceiris/actions-gh-pages@v3
