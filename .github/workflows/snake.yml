@@ -20,7 +20,7 @@ jobs:
           outputs: snake.svg
 
       - name: Upload snake.svg as artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: snake
           path: snake.svg
