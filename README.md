@@ -51,10 +51,17 @@
 
 ---
 
-### 🐍 GitHub Activity Snake:
-<p align="center">
-  <img src="https://github.com/zicoovic/zicoovic/raw/snake/snake.svg" alt="GitHub Activity Snake" />
-</p>
+## 🐍 GitHub Contribution Snake
+
+### 🌞 Light Mode
+![GitHub Snake Light](https://raw.githubusercontent.com/zicoovic/zicoovic/snake/snake.svg#gh-light-mode-only)
+
+### 🌙 Dark Mode
+![GitHub Snake Dark](https://raw.githubusercontent.com/zicoovic/zicoovic/snake/snake-dark.svg#gh-dark-mode-only)
+
+### ⚡ Transparent Mode
+![GitHub Snake Transparent](https://raw.githubusercontent.com/zicoovic/zicoovic/snake/snake-transparent.svg)
+
 
 ---
 
