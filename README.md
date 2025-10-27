@@ -1,6 +1,6 @@
 <!-- Profile Overview - by ChatGPT for @zicoovic -->
 
-<h1 align="center">Hey 👋, I'm Abdelrahman (Zico)</h1>
+<h1 align="center">Hey 👋, I'm Abdelrahman</h1>
 <h3 align="center">A passionate Flutter Developer & Tech Enthusiast 🚀</h3>
 
 <p align="center">
@@ -45,8 +45,8 @@
 ### 🌐 Connect With Me:
 <p align="center">
   <a href="https://github.com/zicoovic" target="_blank"><img src="https://skillicons.dev/icons?i=github" height="40"/></a>
-  <a href="mailto:abdelrahman@example.com"><img src="https://skillicons.dev/icons?i=gmail" height="40"/></a>
-  <a href="https://www.linkedin.com/in/abdelrahman-zakaria" target="_blank"><img src="https://skillicons.dev/icons?i=linkedin" height="40"/></a>
+  <a href="mailto:abdelrhmanzakariaqa@gmail.com.com"><img src="https://skillicons.dev/icons?i=gmail" height="40"/></a>
+  <a href="https://www.linkedin.com/in/abdelrahman-mohammed-b58bb7103/" target="_blank"><img src="https://skillicons.dev/icons?i=linkedin" height="40"/></a>
 </p>
 
 ---
