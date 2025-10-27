@@ -1,6 +1,6 @@
 <!-- Profile Overview - by ChatGPT for @zicoovic -->
 
-<h1 align="center">Hey 👋, I'm Abdelrahman (Zico)</h1>
+<h1 align="center">Hey 👋, I'm Abdelrahman</h1>
 <h3 align="center">A passionate Flutter Developer & Tech Enthusiast 🚀</h3>
 
 <p align="center">
