@@ -8,23 +8,24 @@ on:
 jobs:
   generate-snake:
     runs-on: ubuntu-latest
-    env:
-      GH_PAT: ${{ secrets.GH_PAT }}
+
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Generate GitHub Contribution Snake
         uses: Platane/snk@v3
         with:
           github_user_name: zicoovic
-          outputs: snake.svg
+          outputs: dist/snake.svg
 
-      - name: Commit snake.svg to snake branch using PAT
-        run: |
-          git config --local user.name "github-actions[bot]"
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git checkout -B snake
-          git add snake.svg
-          git commit -m "Update GitHub Activity Snake" || echo "No changes to commit"
-          git push https://x-access-token:${GH_PAT}@github.com/zicoovic/zicoovic.git snake --force
+      - name: Deploy snake.svg to snake branch using PAT
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          personal_token: ${{ secrets.GH_PAT }}
+          external_repository: zicoovic/zicoovic
+          publish_branch: snake
+          publish_dir: ./dist
+          keep_files: true
+          user_name: github-actions[bot]
+          user_email: github-actions[bot]@users.noreply.github.com
