@@ -53,14 +53,16 @@
 
 ## 🐍 GitHub Contribution Snake
 
-### 🌞 Light Mode
-![GitHub Snake Light](https://raw.githubusercontent.com/zicoovic/zicoovic/snake/snake.svg#gh-light-mode-only)
+<div align="center">
 
-### 🌙 Dark Mode
-![GitHub Snake Dark](https://raw.githubusercontent.com/zicoovic/zicoovic/snake/snake-dark.svg#gh-dark-mode-only)
+<!-- Light Mode -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zicoovic/zicoovic/snake/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/zicoovic/zicoovic/snake/snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/zicoovic/zicoovic/snake/snake.svg" />
+</picture>
 
-### ⚡ Transparent Mode
-![GitHub Snake Transparent](https://raw.githubusercontent.com/zicoovic/zicoovic/snake/snake-transparent.svg)
+</div>
 
 
 ---
