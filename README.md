@@ -49,22 +49,5 @@
   <a href="https://www.linkedin.com/in/abdelrahman-zakaria" target="_blank"><img src="https://skillicons.dev/icons?i=linkedin" height="40"/></a>
 </p>
 
----
-
-## 🐍 GitHub Contribution Snake
-
-<div align="center">
-
-<!-- Light Mode -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zicoovic/zicoovic/snake/snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/zicoovic/zicoovic/snake/snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/zicoovic/zicoovic/snake/snake.svg" />
-</picture>
-
-</div>
-
-
----
 
 ⭐️ **From [@zicoovic](https://github.com/zicoovic)**
