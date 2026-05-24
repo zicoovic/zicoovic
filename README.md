@@ -1,4 +1,4 @@
-# Abdulrahman Zakaria
+# ABDULRAHMAN ZAKARYA
 
 Flutter mobile developer focused on building production-quality apps with clean architecture,
 real-world Firebase backends, and bilingual (Arabic/English) user experiences.
