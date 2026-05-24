@@ -1,45 +1,25 @@
-<h1 align="center">Abdulrahman Zakaria</h1>
+# Abdulrahman Zakaria
 
-<p align="center">
-  Flutter Mobile App Developer &nbsp;·&nbsp; Doha, Qatar
-</p>
-
-<p align="center">
-  <a href="https://github.com/zicoovic">
-    <img src="https://img.shields.io/badge/GitHub-zicoovic-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-  &nbsp;
-  <a href="https://www.linkedin.com/in/abdelrahman-mohammed-b58bb7103/">
-    <img src="https://img.shields.io/badge/LinkedIn-Abdulrahman%20Zakaria-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-</p>
-
----
-
-## About
-
-Flutter Mobile App Developer focused on building clean, scalable, and production-ready mobile applications.
-
-I work across the full Flutter development cycle — from architecture design and state management to Firebase integration, localization, security features, and app store release workflows.
-
-My primary project is **Walleon**, a release-ready Flutter personal finance app prepared for Google Play closed testing and app store compliance.
+Flutter mobile developer focused on building production-quality apps with clean architecture,
+real-world Firebase backends, and bilingual (Arabic/English) user experiences.
 
 ---
 
 ## Technical Focus
 
-| Area | Details |
-|---|---|
-| **Framework** | Flutter · Dart |
-| **Architecture** | Clean Architecture (feature-first) |
-| **State Management** | BLoC · Cubit |
-| **Backend** | Firebase Auth · Firestore · Storage · Cloud Functions |
-| **Local Persistence** | SQLite · Drift |
-| **Navigation** | GoRouter |
-| **Localization** | Arabic · English (flutter_localizations) |
-| **Security** | Biometric lock · Password protection · App lock flows |
-| **Release** | Google Play compliance · Store submission · Privacy flows |
-| **Tooling** | Git · GitHub · VS Code · Figma |
+- Full-featured mobile apps with BLoC/Cubit state management and Clean Architecture
+- Firebase-backed systems: Auth, Firestore, Storage, Cloud Functions, Crashlytics
+- Bilingual (AR/EN) RTL-aware interfaces with full dark mode support
+- Offline-first apps with local SQLite (Drift) and cloud sync
+- Stripe-integrated payment flows and secure biometric authentication
+
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat&logo=dart&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=firebase&logoColor=black)
+![Firestore](https://img.shields.io/badge/Firestore-FF6F00?style=flat&logo=google-cloud&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white)
+![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=flat&logo=stripe&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 
 ---
 
@@ -47,44 +27,39 @@ My primary project is **Walleon**, a release-ready Flutter personal finance app 
 
 ### [Walleon — Personal Finance & Budget Tracker](https://github.com/Walleon-app/expense_tracker_application)
 
-A bilingual Flutter app for tracking expenses, managing wallets, planning budgets, and visualizing spending patterns. Built with Clean Architecture, BLoC/Cubit, Drift, and Firebase.
+A production-ready bilingual finance app built entirely with Flutter.
 
-#### Highlights
+**What it does:**
+- Expense and income tracking with custom categories, budgets, and recurring transactions
+- Real-time Firestore sync, offline-first local SQLite storage, and cross-device session management
+- Stripe card payment integration with full bill management and receipt sharing
+- Biometric login (Face ID / Touch ID), App Lock, and multi-step secure account deletion
+- CSV export, budget history, analytics charts, and complete Arabic RTL support
 
-- Expense and income tracking with custom categories
-- Wallet and transaction management
-- Budget planning and budget history
-- Statistics and charts
-- Recurring transactions and CSV export
-- Arabic and English localization with full RTL support
-- Dark mode
-- Firebase authentication and Firestore sync
-- Password protection and biometric app lock
-- Google Play compliance: account deletion, data deletion, and privacy policy flows
+**Engineering highlights:**
+- Feature-first Clean Architecture across 15 feature modules
+- Server-side auth security via Cloud Functions (Admin SDK) with locked Firestore rules
+- 139 passing unit tests, 0 analyzer issues, and a release-ready Android App Bundle prepared for Google Play closed testing
 
-**Stack:** Flutter · Dart · Firebase · BLoC/Cubit · Clean Architecture · Drift · GoRouter
+![Flutter](https://img.shields.io/badge/Flutter-3.44.0-02569B?logo=flutter)
+![Version](https://img.shields.io/badge/Version-1.1.2%2B9-brightgreen)
 
 ---
 
 ## Other Projects
 
-| Project | Description | Stack |
-|---|---|---|
-| **Tiramisu** | Map-based app with location search and BLoC state management | Flutter · BLoC · Google Maps |
-| **To-Do App** | Task manager with Firebase backend | Flutter · Firebase |
-| **Khatmah Clone** | Quran reading tracker with progress management | Flutter · Clean Architecture |
+- **Tiramisu** — Map-based Flutter app using Google Maps, location search, and BLoC state management.
+- **To-Do App** — Simple task management app with Firebase integration and clean Flutter UI.
+- **Khatmah Clone** — Quran reading tracker focused on progress management and structured reading flows.
 
 ---
 
-## GitHub Stats
+## Current Focus
 
-<p align="center">
-  <img
-    src="https://github-readme-stats.vercel.app/api?username=zicoovic&show_icons=true&theme=default&hide_border=true&count_private=true"
-    height="160"
-    alt="GitHub Stats"
-  />
-</p>
+- Preparing Walleon for iOS/TestFlight
+- Improving release workflows and store readiness
+- Strengthening testing, security, and documentation
+- Planning future features such as notifications, PDF export, and AI insights
 
 ---
 
@@ -95,6 +70,4 @@ A bilingual Flutter app for tracking expenses, managing wallets, planning budget
 
 ---
 
-<p align="center">
-  Building Flutter apps with clean architecture, thoughtful UX, and release-ready engineering.
-</p>
+*Building reliable, bilingual mobile experiences — one clean commit at a time.*
